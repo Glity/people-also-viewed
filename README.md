@@ -1,39 +1,80 @@
-# Project Name
+# **Glity - A Food Reviews and Ratings Web Application**
 
-> Project description
+## **About**
 
-## Related Projects
+- An interactive restaurants web application for food reviews and ratings. This is a microserve MERN full-stack application.
 
- - https://github.com/Glity/photo-gallery
- - https://github.com/Glity/reviews
- - https://github.com/Glity/Calendar-reservation
- - https://github.com/Glity/people-also-viewed
+## **Table of Contents**
 
-## Table of Contents
+- [Client Demo](#Demo)
+- [Dependencies](#Dependencies)
+- [Deployment](#Dependencies)
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+## **Demo**
 
-## Usage
+<p align="center">
+<img src="https://hackreactor-restaurant-images.s3-us-west-2.amazonaws.com/static-images/FTC-img1.png" width="75%"></p>
 
-> Some usage instructions
+<p align="center">
+<img src="https://hackreactor-restaurant-images.s3-us-west-2.amazonaws.com/static-images/FTC-img2.png" width="75%"></p>
 
-## Requirements
+<p align="center">
+<img src="https://hackreactor-restaurant-images.s3-us-west-2.amazonaws.com/static-images/FTC-img3.png" width="75%"></p>
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+## **Technologies / Framworks Used**
+- MongoDB
+- Moongoose.js
+- Express.js
+- React
+- Node.js
+- Styled Components
+- Jest / Enzyme
 
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
+## **Dependencies**
 
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
+```
+
+## **Requirements**
+
+- Node 10.5.0
+- npm 6.14.7
+- MongoDB 4.2.8
+
+## **Development**
+
+From within the root directory:
+
+To run dev environment/webpack
+
+```sh
+  npm run react-dev
+```
+
+To run server
+
+```sh
+  npm start
+```
+
+To seed database
+
+```sh
+  npm run seed
+```
+
+To run tests
+
+```sh
+  npm run test
+```
+
+To access local browser
+
+```sh
+  To get started with People Also Viewed Module, run http://localhost:3000/ on your local web browser.
 ```
 
