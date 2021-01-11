@@ -2,7 +2,7 @@
 
 ## **About**
 
-- An interactive restaurants web application for food reviews and ratings. This is a microserve MERN full-stack application.
+- An interactive restaurants web application for food reviews and ratings. This is a micro-service MERN full-stack application.
 
 ## **Table of Contents**
 
