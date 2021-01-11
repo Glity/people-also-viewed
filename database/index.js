@@ -9,7 +9,6 @@ db.once('open', function () {
 });
 
 const restaurantSchema = new mongoose.Schema({
-
   id: Number,
   name: String,
   reviews: Number,
@@ -24,7 +23,6 @@ const restaurantSchema = new mongoose.Schema({
   reviewModal: Array,
   individual_rating: Number
 });
-
 
 const Restaurant = mongoose.model('Restaurant', restaurantSchema);
 
