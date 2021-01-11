@@ -9,6 +9,7 @@
 - [Client Demo](#Demo)
 - [Dependencies](#Dependencies)
 - [Deployment](#Dependencies)
+- [Database Schema Design](#MongoDB)
 
 ## **Demo**
 
@@ -78,3 +79,24 @@ To access local browser
   To get started with People Also Viewed Module, run http://localhost:3000/ on your local web browser.
 ```
 
+## **Database Schema Design**
+
+### **MongoDB**:
+
+```
+const restaurantSchema = new mongoose.Schema({
+  id: Number,
+  name: String,
+  reviews: Number,
+  reviewsNum: Number,
+  price: Number,
+  category: Array,
+  displayImgURL: String,
+  heart: Boolean,
+  super_rated: Boolean,
+  inner_img: Array,
+  unique_id: Number,
+  reviewModal: Array,
+  individual_rating: Number
+});
+```
